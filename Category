@@ -1,0 +1,2 @@
+#Types of values-Category column
+list(set(Finaldata['Category']))
