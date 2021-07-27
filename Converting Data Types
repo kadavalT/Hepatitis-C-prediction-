@@ -1,0 +1,12 @@
+#Preprocessing
+#Assinging the values
+Finaldata['Category'].loc[Finaldata['Category'].isin(["1=Hepatitis","2=Fibrosis", "3=Cirrhosis"])] = 1
+Finaldata['Category'].loc[Finaldata['Category'].isin(["0=Blood Donor", "0s=suspect Blood Donor"])] = 0
+
+Finaldata['Sex'].loc[Finaldata['Sex']=='m']=1
+Finaldata['Sex'].loc[Finaldata['Sex']=='f']=0
+
+#Converting the data type
+Finaldata['Category']=Finaldata['Category'].astype('int')
+Finaldata['Sex']=Finaldata['Sex'].astype('int')
+Finaldata
