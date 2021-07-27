@@ -1,0 +1,4 @@
+from sklearn import metrics
+
+conf_matrix=metrics.confusion_matrix(y_test,y_predict)
+print(conf_matrix)
