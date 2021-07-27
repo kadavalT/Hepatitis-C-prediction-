@@ -1,0 +1,4 @@
+dataset.head()
+dataset.tail()
+#Size of the Data
+print('Row,Column=',dataset.shape)
