@@ -1,0 +1,4 @@
+#Data Cleaning
+#Deleting rows which have more than one null value
+newdataset=dataset.drop(dataset.index[[584,590,603]])
+print(newdataset)
