@@ -4,4 +4,4 @@ Predicting which Category the Particular Observation Belongs to : Hepatitis C pa
 import pandas as pd #Converting Arrays
 
 #Importing data
-dataset = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Hepatitis C.csv')
+dataset = pd.read_csv('')
